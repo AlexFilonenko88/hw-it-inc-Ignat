@@ -1,0 +1,25 @@
+.message {
+    background-color: chartreuse;
+    display: flex;
+}
+
+.wrapper {
+    background-color: #282c34;
+    border-radius: 15px;
+}
+
+.messageImg {
+    width: 60px;
+}
+
+.name {
+    color: aquamarine;
+}
+
+.messageM {
+    color: azure;
+}
+
+.time {
+    color: #61dafb;
+}
