@@ -1,23 +1,30 @@
 .message {
     background-color: chartreuse;
     display: flex;
+    width: 280px;
 }
 
 .wrapper {
     background-color: #282c34;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 10px;
 }
 
 .messageImg {
     width: 60px;
+    border-radius: 50px;
+    /*margin-right: 15px;*/
 }
 
 .name {
     color: aquamarine;
+    margin: 3px;
 }
 
 .messageM {
     color: azure;
+    margin-right: 5px;
 }
 
 .time {
