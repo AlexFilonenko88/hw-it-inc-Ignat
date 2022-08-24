@@ -1,20 +1,34 @@
 .message {
     background-color: chartreuse;
     display: flex;
+    align-items: flex-end;
     width: 280px;
+    padding: 2px;
 }
 
 .wrapper {
     background-color: #282c34;
-    border-radius: 5px;
+    border-radius: 5px 5px 5px 0;
     padding: 7px;
     margin-left: 10px;
+    position: relative;
+}
+
+.wrapper:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #282c34 0);
+    position: absolute;
+    bottom: 0;
+    left: -15px;
 }
 
 .messageImg {
-    width: 60px;
+    width: 48px;
+    height: 48px;
     border-radius: 50px;
-    /*margin-right: 15px;*/
+    margin-bottom: 3px;
 }
 
 .name {
@@ -25,8 +39,11 @@
 .messageM {
     color: azure;
     margin-right: 5px;
+    word-wrap: break-word;
 }
 
 .time {
     color: #61dafb;
+    display: flex;
+    justify-content: flex-end;
 }
