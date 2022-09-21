@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/it-inc-kabzda-kak-podrobno/static/css/main.cba21bb4.css",
+    "main.js": "/it-inc-kabzda-kak-podrobno/static/js/main.7b608df5.js",
+    "static/media/checked.png": "/it-inc-kabzda-kak-podrobno/static/media/checked.95bfd7a8bdb949ec04fd.png",
+    "index.html": "/it-inc-kabzda-kak-podrobno/index.html",
+    "main.cba21bb4.css.map": "/it-inc-kabzda-kak-podrobno/static/css/main.cba21bb4.css.map",
+    "main.7b608df5.js.map": "/it-inc-kabzda-kak-podrobno/static/js/main.7b608df5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cba21bb4.css",
+    "static/js/main.7b608df5.js"
+  ]
+}
