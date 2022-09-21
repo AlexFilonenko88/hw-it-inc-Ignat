@@ -11,3 +11,8 @@
 .testSpanError {
     color: blue;
 }
+
+.title {
+    text-align: center;
+    color: rgb(51, 51, 255);
+}

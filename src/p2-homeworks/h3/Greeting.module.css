@@ -5,3 +5,8 @@
 .error {
     border: 1px solid red;
 }
+
+.title {
+    text-align: center;
+    color: rgb(51, 51, 255);
+}

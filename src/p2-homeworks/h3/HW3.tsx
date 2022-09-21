@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import GreetingContainer from './GreetingContainer'
+import s from "./Greeting.module.css"
 import {v1} from "uuid"
 
 // types
@@ -19,7 +20,7 @@ function HW3() {
     }
 
     return (
-        <div>
+        <div className={s.title}>
             <hr/>
             homeworks 3
 
