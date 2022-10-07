@@ -6,9 +6,10 @@ import s from './Heade.module.css'
 function Header() {
     return (
         <div className={s.header}>
-            <NavLink to={PATH.PRE_JUNIOR} className={s.link} activeClassName={s.active}>pre-junior</NavLink>
-            <NavLink to={PATH.JUNIOR} className={s.link} activeClassName={s.active}>junior</NavLink>
-            <NavLink to={PATH.JUNIOR_PLUS} className={s.link} activeClassName={s.active}>junior+</NavLink>
+            <NavLink to={PATH.PRE_JUNIOR}
+                     className={({isActive}) => isActive ? s.active : s.link}>pre-junior</NavLink>
+            <NavLink to={PATH.JUNIOR} className={({isActive}) => isActive ? s.active : s.link}>junior</NavLink>
+            <NavLink to={PATH.JUNIOR_PLUS} className={({isActive}) => isActive ? s.active : s.link}>junior+</NavLink>
             <div className={s.block}/>
         </div>
     )
