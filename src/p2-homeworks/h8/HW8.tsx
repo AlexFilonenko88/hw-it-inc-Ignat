@@ -46,8 +46,8 @@ function HW8() {
         <SuperButton onClick={sortDown}>sort down</SuperButton>
         <SuperButton onClick={sort18}>sort 18</SuperButton>
       </div>
-      <div>sort down</div>
-      check 18
+      {/*<div>sort down</div>*/}
+      {/*check 18*/}
 
       <hr/>
       {/*для личного творчества, могу проверить*/}
