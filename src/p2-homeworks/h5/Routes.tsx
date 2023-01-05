@@ -3,16 +3,13 @@ import {Navigate, Route, Routes} from "react-router-dom";
 import PreJunior from "./pages/PreJunior";
 import Error404 from "../h5-rrd-v6/pages/Error404";
 import JuniorPlus from "./pages/JuniorPlus";
+import Junior from "./pages/Junior";
 
 export const PATH = {
   PRE_JUNIOR: '/pre-junior',
   // add paths
   JUNIOR: '/junior',
   JUNIOR_PLUS: '/juniorPlus',
-}
-
-function Junior() {
-  return null;
 }
 
 function Nav() {
